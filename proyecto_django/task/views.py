@@ -32,7 +32,6 @@ def signup(request):
             'error':'password do not match'
         })
             
-
 def home(request):
     titulo = 'Wuenas'
     return render(request, 'home.html',)
